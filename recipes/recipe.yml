@@ -17,6 +17,7 @@ modules:
         - chronos/apx
     install:
       packages:
+        - apx
         - DankMaterialShell
         - fish
         - nix
