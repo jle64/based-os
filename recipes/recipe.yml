@@ -15,13 +15,13 @@ modules:
       - source: system
         destination: / # copies files/system/* into your image's root folder /
   - type: dnf
-    repos:
-      nonfree: negativo17
     install:
       packages:
         - fish # so user can set default shell to fish without breaking anything
         - nix
         - DankMaterialShell
+        - niri
+        - niri-settings
     remove:
       packages:
         - firefox
