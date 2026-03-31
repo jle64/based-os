@@ -30,4 +30,8 @@ modules:
       packages:
         - firefox
         - firefox-langpacks
+  - type: soar
+    additional-repos: true
+    auto-upgrade: true
+    upgrade-interval: '24h'
   - type: signing
