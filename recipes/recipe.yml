@@ -12,7 +12,7 @@ modules:
         destination: /
   - type: dnf
     repos:
-      nonfree: negativo17
+      #nonfree: negativo17
       copr:
         - chronos/apx
     install:
