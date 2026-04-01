@@ -14,7 +14,6 @@ modules:
     repos:
       #nonfree: negativo17
       files:
-        #- https://terra.fyralabs.com/terra.repo
         - https://raw.githubusercontent.com/terrapkg/subatomic-repos/main/terra.repo
       copr:
         - wezfurlong/wezterm-nightly
@@ -31,6 +30,7 @@ modules:
         - niri
         - noctalia-shell
         - playerctl
+        - tailscale
         - wezterm
       exclude:
         - alacritty
