@@ -17,12 +17,16 @@ modules:
         - chronos/apx
         - wezfurlong/wezterm-nightly
         - johndanger/MangosteenOS
+        - avengemedia/danklinux
     install:
       packages:
         - apx
         - apx-conf
         - brightnessctl
         - DankMaterialShell
+        - danksearch
+        - dgop
+        - dms-greeter
         - fish
         - nix
         - niri
