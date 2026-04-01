@@ -20,6 +20,7 @@ modules:
     install:
       packages:
         - apx
+        - apx-conf
         - brightnessctl
         - DankMaterialShell
         - fish
