@@ -26,13 +26,14 @@ modules:
         - dgop
         - dms-greeter
         - fish
+        - kdeconnectd
+        - kitty
         - nix
         - niri
         - noctalia-shell
         - playerctl
         - tailscale
         - wezterm
-        - kitty
       exclude:
         - alacritty
         - waybar
