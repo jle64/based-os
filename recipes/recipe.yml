@@ -11,7 +11,7 @@ modules:
       - source: system
         destination: /
   - type: dnf
-    repos:
+    #repos:
       #nonfree: negativo17
       #copr:
       #  - chronos/apx
