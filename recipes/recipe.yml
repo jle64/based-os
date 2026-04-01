@@ -32,6 +32,7 @@ modules:
         - playerctl
         - tailscale
         - wezterm
+        - kitty
       exclude:
         - alacritty
         - waybar
