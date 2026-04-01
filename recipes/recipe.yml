@@ -16,17 +16,22 @@ modules:
       copr:
         - chronos/apx
         - wezfurlong/wezterm-nightly
+        - zhangyi6324/noctalia-shell
     install:
       packages:
         - apx
+        - brightnessctl
         - DankMaterialShell
         - fish
         - nix
         - niri
+        - noctalia-shell
+        - playerctl
         - wezterm
       exclude:
         - alacritty
         - waybar
+        - swaylock
     remove:
       packages:
         - firefox
