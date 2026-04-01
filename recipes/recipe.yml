@@ -13,11 +13,11 @@ modules:
   - type: dnf
     repos:
       #nonfree: negativo17
-      copr:
-        - chronos/apx
+      #copr:
+      #  - chronos/apx
     install:
       packages:
-        - apx
+       # - apx
         - DankMaterialShell
         - fish
         - nix
