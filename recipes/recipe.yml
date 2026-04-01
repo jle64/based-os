@@ -13,15 +13,14 @@ modules:
   - type: dnf
     repos:
       #nonfree: negativo17
+      files:
+        #- https://terra.fyralabs.com/terra.repo
+        - https://raw.githubusercontent.com/terrapkg/subatomic-repos/main/terra.repo
       copr:
-        - chronos/apx
         - wezfurlong/wezterm-nightly
-        - johndanger/MangosteenOS
         - avengemedia/danklinux
     install:
       packages:
-        - apx
-        - apx-conf
         - brightnessctl
         - DankMaterialShell
         - danksearch
