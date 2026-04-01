@@ -11,13 +11,14 @@ modules:
       - source: system
         destination: /
   - type: dnf
-    #repos:
+    repos:
       #nonfree: negativo17
-      #copr:
-      #  - chronos/apx
+      copr:
+        - chronos/apx
+        - wezfurlong/wezterm-nightly
     install:
       packages:
-       # - apx
+        - apx
         - DankMaterialShell
         - fish
         - nix
