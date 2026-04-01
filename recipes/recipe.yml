@@ -16,7 +16,7 @@ modules:
       copr:
         - chronos/apx
         - wezfurlong/wezterm-nightly
-        - zhangyi6324/noctalia-shell
+        - johndanger/MangosteenOS
     install:
       packages:
         - apx
