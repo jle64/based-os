@@ -12,7 +12,6 @@ modules:
         destination: /
   - type: dnf
     repos:
-      #nonfree: negativo17
       files:
         - https://raw.githubusercontent.com/terrapkg/subatomic-repos/main/terra.repo
       copr:
@@ -20,6 +19,7 @@ modules:
         - avengemedia/danklinux
     install:
       packages:
+        - akmod-nvidia
         - brightnessctl
         - DankMaterialShell
         - danksearch
@@ -28,6 +28,7 @@ modules:
         - fish
         - kdeconnectd
         - kitty
+        - mangowm
         - nix
         - niri
         - noctalia-shell
