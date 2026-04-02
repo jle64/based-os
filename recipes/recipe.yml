@@ -14,17 +14,9 @@ modules:
     repos:
       files:
         - https://raw.githubusercontent.com/terrapkg/subatomic-repos/main/terra.repo
-      copr:
-        - wezfurlong/wezterm-nightly
-        - avengemedia/danklinux
     install:
       packages:
-        - akmod-nvidia
         - brightnessctl
-        - DankMaterialShell
-        - danksearch
-        - dgop
-        - dms-greeter
         - fish
         - kdeconnectd
         - kitty
@@ -34,7 +26,6 @@ modules:
         - noctalia-shell
         - playerctl
         - tailscale
-        - wezterm
       exclude:
         - alacritty
         - waybar
