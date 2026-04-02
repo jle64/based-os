@@ -7,6 +7,7 @@ image-version: 44
 
 modules:
   - type: akmods
+    base: main
     install:
       - v4l2loopback
     nvidia-driver: nvidia
@@ -21,15 +22,12 @@ modules:
         - git-credential-libsecret
         - kdeconnectd
         - kitty
-        - libva-nvidia-driver
         - mangowm
         - niri
         - nix
         - noctalia-shell
-        - nvidia-vaapi-driver
         - playerctl
         - tailscale
-        - xorg-x11-drv-nvidia-cuda
       exclude:
         - alacritty
         - waybar
