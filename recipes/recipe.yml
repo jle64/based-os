@@ -18,6 +18,7 @@ modules:
       packages:
         - brightnessctl
         - fish
+        - git-credential-libsecret
         - kdeconnectd
         - kitty
         - mangowm
