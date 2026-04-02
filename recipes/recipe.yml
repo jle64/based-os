@@ -26,7 +26,6 @@ modules:
         - niri
         - nix
         - noctalia-shell
-        - nvidia-container-toolkit
         - nvidia-vaapi-driver
         - playerctl
         - tailscale
