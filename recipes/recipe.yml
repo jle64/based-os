@@ -12,7 +12,8 @@ modules:
         destination: /
   - type: akmods
     install:
-      - nvidia-open
+    - v4l2loopback
+    nvidia-driver: nvidia-open
   - type: dnf
     repos:
       files:
@@ -24,12 +25,16 @@ modules:
         - git-credential-libsecret
         - kdeconnectd
         - kitty
+        - libva-nvidia-driver
         - mangowm
-        - nix
         - niri
+        - nix
         - noctalia-shell
+        - nvidia-container-toolkit
+        - nvidia-vaapi-driver
         - playerctl
         - tailscale
+        - xorg-x11-drv-nvidia-cuda
       exclude:
         - alacritty
         - waybar
