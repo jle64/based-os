@@ -10,6 +10,9 @@ modules:
     files:
       - source: system
         destination: /
+  - type: akmods
+    install:
+      - nvidia-open
   - type: dnf
     repos:
       files:
