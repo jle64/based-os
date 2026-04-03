@@ -9,8 +9,8 @@ modules:
   - type: akmods
     base: main
     install:
-      - v4l2loopback
-    nvidia-driver: nvidia
+      - nvidia
+    nvidia-driver: nvidia-open
   - type: dnf
     repos:
       files:
@@ -22,7 +22,7 @@ modules:
         - git-credential-libsecret
         - kdeconnectd
         - kitty
-        #- mangowm
+        - mangowm
         - niri
         - nix
         - noctalia-shell
