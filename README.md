@@ -19,11 +19,11 @@ systemctl reboot
 
 ## Building an ISO
 
-See [here](https://blue-build.org/how-to/generate-iso/#_top).
+```bash
+bluebuild generate-iso --iso-name based-os.iso image ghcr.io/jle64/based-os
+```
 
-## Verification
-
-These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
+## Signature verification
 
 ```bash
 cosign verify --key cosign.pub ghcr.io/jle64/based-os
