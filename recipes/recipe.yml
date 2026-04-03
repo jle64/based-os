@@ -22,7 +22,7 @@ modules:
         - git-credential-libsecret
         - kdeconnectd
         - kitty
-        - mangowm
+        #- mangowm
         - niri
         - nix
         - noctalia-shell
