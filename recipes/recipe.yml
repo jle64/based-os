@@ -2,15 +2,10 @@
 name: based-os
 description: This is my personal OS image.
 
-base-image: ghcr.io/ublue-os/base-main
+base-image: ghcr.io/ublue-os/silverblue-nvidia
 image-version: 44
 
 modules:
-  - type: akmods
-    base: main
-    install:
-      - nvidia
-    nvidia-driver: nvidia-open
   - type: dnf
     repos:
       files:
