@@ -23,6 +23,7 @@ modules:
         - nix
         - noctalia-shell
         - playerctl
+        - strace
         - tailscale
       exclude:
         - alacritty
