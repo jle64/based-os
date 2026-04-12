@@ -13,13 +13,11 @@ modules:
     install:
       packages:
         - brightnessctl
-        - DankMaterialShell
         - fish
         - fuse-libs
         - git-credential-libsecret
         - kdeconnectd
         - kitty
-        - mangowm
         - niri
         - nix
         - noctalia-shell
