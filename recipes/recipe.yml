@@ -21,6 +21,7 @@ modules:
         - niri
         - nix
         - noctalia-shell
+        - pavucontrol
         - playerctl
         - strace
         - tailscale
