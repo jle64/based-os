@@ -13,7 +13,7 @@ modules:
     install:
       packages:
         - brightnessctl
-        - chez-moi
+        - chezmoi
         - chezmoi-fish-completion
         - fish
         - fuse-libs
