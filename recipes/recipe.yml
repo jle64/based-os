@@ -13,10 +13,11 @@ modules:
     install:
       packages:
         - brightnessctl
+        - chez-moi
+        - chezmoi-fish-completion
         - fish
         - fuse-libs
         - git-credential-libsecret
-        - kdeconnectd
         - kitty
         - niri
         - nix
@@ -25,6 +26,7 @@ modules:
         - playerctl
         - strace
         - tailscale
+        - valent
       exclude:
         - alacritty
         - fuzzel
